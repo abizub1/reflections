@@ -12,5 +12,3 @@ How might using version control make you more confident to make changes that cou
 	I know I can always go back and delete any harmful changes and start over
 Now that you have your workspace set up, what do you want to try using Git for?
 	I don't know exactly yet, but I would guess I could use it for many projects involving sublime text 2 such as HTML, CSS, or Javascript code
-What happens when you initialize a repository? Why do you need to do it?
-	A repository is created of the file that you had previously changed the directory to. You need to do it so that you can keep track of the changes that you have made to that file so you can more easily debug. This will help in big projects that one may have to do in the future.
