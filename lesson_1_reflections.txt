@@ -1,0 +1,16 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	Viewing a diff between the files was neat and helped me realize how fast bebugging could be done when working on a big project. This tool will undoubtably help me out in the future when I code anything for a class.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	Having access to the entire history of a file could help you see which lines of code worked correctly and which ones didn't and how different peices of code do different things, thus you can optimize your process and produce the most efficent code possible.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs. having versions automatically saved, like Google docs does?
+	pros are that you have more control and can decide when a logical change has been made and save it accordingly so that going through old versions will be easier buy cons are that human error is present and you may forget to commit your changes, making the code harder to read, but a program that auto saves may save too often or save when no changes have been made.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	I think that since the files are interrelated, Git figures that you would want to see them together to see how each affects each other whereas google docs dosn't see how file could be interrelated since it is not a code oriented version control system.
+How can you use the commands git log and git diff to view the history of files?
+	you can use git log to analyze all of the commits made and to see when they were made and a little description then use git diff with two of the commit IDs to see the specific differences.
+How might using version control make you more confident to make changes that could break something?
+	I know I can always go back and delete any harmful changes and start over
+Now that you have your workspace set up, what do you want to try using Git for?
+	I don't know exactly yet, but I would guess I could use it for many projects involving sublime text 2 such as HTML, CSS, or Javascript code
+What happens when you initialize a repository? Why do you need to do it?
+	A repository is created of the file that you had previously changed the directory to. You need to do it so that you can keep track of the changes that you have made to that file so you can more easily debug. This will help in big projects that one may have to do in the future.

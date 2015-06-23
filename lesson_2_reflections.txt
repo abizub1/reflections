@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	A repository is created of the file that you had previously changed the directory to. You need to do it so that you can keep track of the changes that you have made to that file so you can more easily debug. This will help in big projects that one may have to do in the future.
