@@ -2,3 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 	A repository is created of the file that you had previously changed the directory to. You need to do it so that you can keep track of the changes that you have made to that file so you can more easily debug. This will help in big projects that one may have to do in the future.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area offers a place where you can store things you want to commit to the repository, so its like a gui coming up before you delete something, it just wants to make sure you want to make the changes before you actually make them.
+How can you use the staging area to make sure you have one commit per logical change?
+	you can view what you have added to it and make sure that the things you've put in there refer to one logical change then add them or take one out if it doesn't belong.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	if you are unsure on how a change could affect your project in the long term then branches would be useful to make the change harmless if it is potentially damaging but if it helps then you can always add it back to the master branch. Also, people with other ideas for your project could create their own branches without harming the integrety of the project.
+How do the diagrams help you visualize the branch structure?
+	The diagrams help me to see the flow of creation and modification of a projects structure through time and how some things can affect others or not if they don't want to.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	it creates a super branch where the changes from both branches are incorporated and representing it in the diagram makes it much easier to understand.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	pros are that its less work for you and it only notifies you of conflicts with the code so that you can go back and fix them to make the optimal version of the code for you. cons are that sometimes you may get annoyed with making the little changes for conflicts if you think that they are not that big of an issue.
